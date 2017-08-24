@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/dialog_button.negative</item>
+        <item name="buttonBarPositiveButtonStyle">@style/dialog_button.positive</item>
+        <item name="listDividerAlertDialog">@drawable/dialog_divider</item>
+    </style>
+
+    <style name="dialog_button">
+        <item name="android:background">#00FFFFFF</item>
+    </style>
+
+    <style name="dialog_button.negative">
+        <item name="android:textColor">@color/dialog_button</item>
+    </style>
+
+    <style name="dialog_button.positive">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog_divider">
+        <item name="android:divider">@color/lightgrey</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>

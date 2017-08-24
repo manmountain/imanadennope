@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">I månaden? Nope.</string>
+    <string name="reply_default_text">Write back here...</string>
+    <string name="menu_share">share</string>
+    <string name="menu_pins">31</string>
+    <string name="menu_pin">pin it</string>
+    <string name="orginal_gangstarr">OG</string>
+    <string name="hometown">Hometown</string>
+    <string name="item_text">Om man jobbar extra på ett sågverk och bara jobbar natt (04-10) kan man dra in 100000 efter skatt?</string>
+    <string name="item_replys">I månaden? Nope.</string>
+    <array name="dialog_options">
+        <item>Flag MSG</item>
+        <item>Disable notofications 🔕</item>
+        <item>I dont like this MSG</item>
+    </array>
+    <array name="dialog_options_response">
+        <item>Flag MSG</item>
+        <item>Disable notofications 🔔</item>
+        <item>This is 💯⁉️️</item>
+    </array>
+    <array name="dialog_options2">
+        <item>Flag MSG</item>
+        <item>Disable notofications</item>
+        <item>I dont like this MSG :(</item>
+    </array>
+    <array name="dialog_options_response2">
+        <item>Flag MSG</item>
+        <item>Disable notofications</item>
+        <item>This is LIT!!️️</item>
+    </array>
+    <string name="cancel">CANCEL</string>
+</resources>
